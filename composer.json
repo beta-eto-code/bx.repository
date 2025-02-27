@@ -1,6 +1,6 @@
 {
     "name": "beta/bx.repository",
-    "type": "lib",
+    "type": "bitrix-module",
     "description": "Repository for Bitrix Framework",
     "license": "MIT",
     "authors": [
