@@ -49,7 +49,7 @@ class BaseBxRepository extends BaseRepository
         string ...$fetchListNames
     ): CollectionInterface {
         if (empty($query->getSelect()) && $this->isModelHasSelectFields()) {
-            $query->setSelect($this->modelClass::getSelectFields());
+            $query->setSelect($this->modelClass::getSelectFiledNames());
         }
 
         return parent::getCollection($query, $recipientContext, ...$fetchListNames);
