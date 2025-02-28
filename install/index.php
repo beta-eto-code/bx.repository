@@ -14,10 +14,10 @@ class bx_repository extends CModule
 
     public function __construct()
     {
-        $this->MODULE_VERSION = "0.0.1";
+        $this->MODULE_VERSION = "1.0.0";
         $this->MODULE_VERSION_DATE = "2024-12-07 20:24:31";
-        $this->MODULE_NAME = "Название модуля";
-        $this->MODULE_DESCRIPTION = "Описание модуля";
+        $this->MODULE_NAME = "Репозитории Bitrix";
+        $this->MODULE_DESCRIPTION = "Расширение пакета repository.base для Bitrix";
     }
 
     public function DoInstall()

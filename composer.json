@@ -20,22 +20,10 @@
         "classmap": ["lib/"]
     },
     "repositories": {
-        "collection.base": {
-            "type": "vcs",
-            "url": "git@github.com:beta-eto-code/collection.base.git"
-        },
-        "model.base": {
-            "type": "vcs",
-            "url": "git@github.com:beta-eto-code/model.base.git"
-        },
         "access.scope.base": {
             "type": "vcs",
             "url": "git@github.com:beta-eto-code/access.scope.base.git"
         },
-        "repository.base": {
-            "type": "vcs",
-            "url": "git@github.com:beta-eto-code/repository.base.git"
-        }
     },
     "scripts": {
         "test": "phpunit"

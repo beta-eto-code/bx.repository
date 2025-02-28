@@ -1,4 +1,7 @@
-# Пример реализации простого модуля 1C:Битрикс d7 
+# Bitrix repository
+
+
+**Пример описания модели:**
 
 ```php
 use Model\Base\BaseModel;
@@ -62,6 +65,7 @@ class ShortNews extends BaseModel implements SelectableInterface, FetchableInter
 }
 ```
 
+**Пример выборки альтернативной модели**
 
 ```php
 $iblockRepository = new \Bx\Repository\IblockElementRepository('content', 'news', ShorNews:class);
