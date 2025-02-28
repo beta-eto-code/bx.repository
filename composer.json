@@ -23,7 +23,7 @@
         "access.scope.base": {
             "type": "vcs",
             "url": "git@github.com:beta-eto-code/access.scope.base.git"
-        },
+        }
     },
     "scripts": {
         "test": "phpunit"
